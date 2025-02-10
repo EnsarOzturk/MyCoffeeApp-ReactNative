@@ -5,6 +5,8 @@ import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 import 'react-native-reanimated';
+import { Tabs } from 'expo-router';
+import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 
 import { useColorScheme } from '@/hooks/useColorScheme';
 
@@ -35,5 +37,48 @@ export default function RootLayout() {
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
+  );
+}
+
+export function Layout() {
+  return (
+    <Tabs
+      screenOptions={{
+        tabBarActiveTintColor: '#8B4513', // Aktif tab rengi
+        tabBarInactiveTintColor: '#DEB887', // İnaktif tab rengi
+        tabBarStyle: {
+          borderTopColor: '#E6CCB2',
+          backgroundColor: '#FFF',
+        }
+      }}
+    >
+      <Tabs.Screen
+        name="index"
+        options={{
+          title: 'Ana Sayfa',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="home" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="menu"
+        options={{
+          title: 'Menü',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="book-open-variant" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="about"
+        options={{
+          title: 'Hakkımızda',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="coffee-maker" size={size} color={color} />
+          ),
+        }}
+      />
+    </Tabs>
   );
 }
