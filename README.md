@@ -2,11 +2,24 @@
 
 ## Uygulama Ekranları
 
-![Home Screen](screenshots/homeScreen.png)
-![Menu1 Screen](screenshots/menuScreen1.png)
-![Menu2 Screen](screenshots/menuScreen2.png)
-![Menu3 Screen](screenshots/menuScreen3.png)
-![About Screen](screenshots/aboutScreen.png)
+<p align="left">
+  <img src="screenshots/homeScreen.png" alt="HomeScreen" width="200"/>
+  <img src="screenshots/menuScreen1.png" alt="MenuScreen1" width="200"/>
+  <img src="screenshots/menuScreen2.png" alt="MenuScreen2" width="200"/>
+</p>
+<p align="left">
+  <b>Home Screen</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Menu Screen1</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Menu Screen2</b>
+</p>
+<p align="left">
+  <img src="screenshots/menuScreen3.png" alt="MenuScreen3" width="200"/>
+  <img src="screenshots/aboutScreen.png" alt="AboutScreen" width="200"/>
+</p>
+<p align="left">
+  <b>Menu Screen3</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>About Screen</b>
+</p>
  
 ## Kullanılan Teknolojiler
 
