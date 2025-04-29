@@ -1,32 +1,24 @@
 # CoffeeMenu/ReactNative 🍿
 
-## Uygulama Ekranları 
+## Uygulama Ekranları
 
-<p align="left">
-  <img src="screenshots/homeScreen.png" alt="Home Screen" width="200"/>
-  <img src="screenshots/menuScreen1.png" alt="Menu1 Screen" width="200"/>
-  <img src="screenshots/menuScreen2.png" alt="Menu2 Screen" width="200"/>
-</p>
-<p align="left">
-  <b>Home Screen</b>&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Menu1 Screen</b>&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Menu2 Screen</b>
-</p>
+![Home Screen](screenshots/homeScreen.png)
+![Menu1 Screen](screenshots/menuScreen1.png)
+![Menu2 Screen](screenshots/menuScreen2.png)
+![Menu3 Screen](screenshots/menuScreen3.png)
+![About Screen](screenshots/aboutScreen.png)
+ 
+## Kullanılan Teknolojiler
 
-<p align="left">
-  <img src="screenshots/menuScreen3.png" alt="Menu3 Screen" width="200"/>
-  <img src="screenshots/aboutScreen.png" alt="About Screen" width="200"/>
-</p>
-<p align="left">
-  <b>Menu3 Screen</b>&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>About Screen</b>
-</p>
+- **Formik** – Form yönetimi için kullanıldı.
+- **Yup** – Form verilerini doğrulamak (validation) için kullanıldı.
+- **react-i18next** – Uygulamada çoklu dil desteği sağlamak için kullanıldı.
+- **Axios** – API isteklerini gerçekleştirmek için kullanıldı.
 
-## Kullanılan Teknolojiler 👨🏻‍💻
-
-
-
-## İletişim 💌
+  
+## İletişim
 - ozturkkensar@gmail.com
 - https://github.com/EnsarOzturk
 - www.linkedin.com/in/ensar-öztürk-3aa986235
+
+
