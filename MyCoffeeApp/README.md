@@ -1,50 +1,22 @@
-# Welcome to your Expo app 👋
+# CoffeeMenu/ReactNative
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Uygulama Ekranları
 
-## Get started
+![Home Screen](screenshots/homeScreen.png)
+![Menu1 Screen](screenshots/menuScreen1.png)
+![Menu2 Screen](screenshots/menuScreen2.png)
+![Menu3 Screen](screenshots/menuScreen3.png)
+![About Screen](screenshots/aboutScreen.png)
+ 
+## Kullanılan Teknolojiler
 
-1. Install dependencies
+- **Formik** – Form yönetimi için kullanıldı.
+- **Yup** – Form verilerini doğrulamak (validation) için kullanıldı.
+- **react-i18next** – Uygulamada çoklu dil desteği sağlamak için kullanıldı.
+- **Axios** – API isteklerini gerçekleştirmek için kullanıldı.
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+  
+## İletişim
+- ozturkkensar@gmail.com
+- https://github.com/EnsarOzturk
+- www.linkedin.com/in/ensar-öztürk-3aa986235
